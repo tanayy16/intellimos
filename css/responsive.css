@@ -1,133 +1,88 @@
-
-
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
-@media (min-width: 1200px) and (max-width: 1500px) {}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .text-bg h1 {
-        font-size: 67px;
-    }
-    ul.easy li a {
-        font-size: 21px;
-    }
-    ul.social_icon li a {
-        font-size: 16px;
-    }
+/* Normal desktop :992px. */
+@media (min-width: 1201px) and (max-width: 1500px) {
+.single-slider {
+  padding: 170px 0;
 }
 
+}/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.single-slider {
+  padding: 170px 0;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .text-bg h1 {
-        padding-top: 0px;
-        font-size: 51px;
-        line-height: 70px;
-    }
-    ul.Menu_footer {
-        padding-bottom: 30px;
-    }
-    ul.easy li a {
-        font-size: 17px;
-        padding: 18px 11px;
-    }
-    ul.location_icon li {
-        padding-bottom: 20px;
-    }
+.main-menu ul li a {
+  padding: 30px 12px;
+}
+.top-right li span {
+  font-size: 12px;
+}
+.top-right li a {
+  font-size: 12px;
+}
+.top-right li {
+  line-height: 33px;
+}
+.single-slider {
+  padding: 150px 0;
+}
+.mt-sm-50{margin-top:50px;}
+.Flickr-list > li {
+  width: inherit;
+}
+.footer-area .Flickr-list > li {
+  width: 33.33%;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
-    .header {
-        padding: 15px 30px 10px 30px;
-    }
-    .about_img {
-        padding-bottom: 20px;
-    }
-    ul.btn li {
-        padding: 0 18px;
-    }
-    .text-bg {
-        max-width: inherit;
-        padding-top: 60px;
-    }
-    .padding_left0 {
-        padding-left: 15px;
-    }
-    .padding_right0 {
-        padding-right: 15px;
-    }
-    .main_form .send_btn {
-        margin-bottom: 30px;
-    }
-    ul.location_icon li {
-        padding-bottom: 20px;
-    }
-    .work_img {
-        padding-right: 0;
-        padding-top: 30px;
-    }
+
+
 }
 
-@media (max-width: 575px) {
-    .header {
-        padding: 30px 0px 15px 0px;
-    }
-    .header::after {
-        background: inherit;
-        position: inherit;
-    }
-    .logo {
-        text-align: center !important;
-        padding-bottom: 6px;
-        text-align: center;
-    }
-    .titlepage h2 {
-        font-size: 37px;
-    }
-    .images_box {
-        padding-top: 20px;
-    }
-    .down_btn a {
-        padding: 7px 16px;
-    }
-    ul.btn li {
-        padding: 0px 7px;
-    }
-    #sidebarCollapse {
-        padding-right: 8px;
-    }
-    .banner_main {
-        padding: 0px 0 90px 0;
-    }
-    .text-bg h1 {
-        font-size: 44px;
-        line-height: 64px;
-        padding-bottom: 40px;
-        padding-left: 10px;
-    }
-    .about_img {
-        padding-bottom: 20px;
-    }
-    .padding_left0 {
-        padding-left: 15px;
-    }
-    .padding_right0 {
-        padding-right: 15px;
-    }
-    .work_img {
-        padding-right: 0;
-        padding-top: 30px;
-    }
-    .main_form .send_btn {
-        margin-bottom: 30px;
-    }
-    ul.location_icon li {
-        padding-bottom: 20px;
-    }
-    ul.Menu_footer,
-    ul.social_icon {
-        padding-bottom: 20px;
-    }
+/* small mobile :320px. */
+@media (max-width: 767px) {
+/* .container {width:300px} */
+.single-slider {
+  padding: 100px 0;
 }
+.slider-active .owl-nav div {
+  font-size: 27px;
+  height: 40px;
+  line-height: 36px;
+  width: 40px;
+}
+.slider-text h1 {
+  font-size: 28px;
+}
+.slider-text p {
+  display: none;
+  font-size: 13px;
+  line-height: 23px;
+}
+.slider-text a {
+  font-size: 12px;
+  padding: 7px 12px;
+}
+.portfolio-filter li {
+  margin: 3px 4px;
+}
+.social-icons.text-center > a {
+  margin: 0 2px;
+ }
+.single-counter {
+  width: 50%;
+}
+ 
+ 
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+} 
+ 
 

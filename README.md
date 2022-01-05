@@ -1,2 +1,0 @@
-# intellimos
-COMPANY WEBSITE
